@@ -11,94 +11,103 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Responsive Portfolio</title>
+
+    <style>
+        body {
+            background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
+            background-color: rgb(150, 150, 150);
+            }
+    </style>
+
 </head>
 
 <body>
 
     <!-- Header (Navbar) -->
+        <header class="p-0 navbar navbar-expand-sm navbar-light bg-light sticky-top">
+            <div class="container-fluid">
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-        <div class="container-fluid">
+            <!-- ~~~~~~~~~~ self note: add containter here ~~~~~~~~~~ -->            
+            <!-- col-12 col-sm-12 col-md-6 col-lg-6 col-xl-2 m-0 p-0 -->
 
-            <!-- ~~~~~~~~~~ self note: add containter here ~~~~~~~~~~ -->
-            <a class="navbar-brand">Your Name</a>
+                <div class="container">
+                    <div class="ml-3 pl-5 pr-5 navbar-brand bg-info text-white text-center font-weight-bold">
+                        <h2>Casey M.</h2>
+                    </div>
+                </div>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!-- Navbar Links-->
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <!-- Navbar Links-->
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav">
 
-                    <li class="nav-item active">
-                        <!-- About Me -->
-                        <a class="nav-link" href="index.html">About Me</a>
-                    </li>
+                        <li class="nav-item active border-right">
+                            <!-- About Me -->
+                            <a class="p-0 pr-2 pl-2 nav-link border-secondary text-secondary" href="index.html">About Me</a>
+                        </li>
 
-                    <li class="nav-item active">
-                        <!-- Portfolio -->
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
+                        <li class="nav-item active border-right">
+                            <!-- Portfolio -->
+                            <a class="p-0 pr-2 pl-2 nav-link border-secondary text-secondary" href="portfolio.html">Portfolio</a>
+                        </li>
 
-                    <li class="nav-item active">
-                        <!-- Contacts -->
-                        <a class="nav-link" href="contact.html">Contacts</a>
-                    </li>
-                </ul>
+                        <li class="nav-item active">
+                            <!-- Contacts -->
+                            <a class="p-0 pr-2 pl-2 nav-link text-secondary" href="contact.html">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </header>
 
 
 
-    <!-- Container (About Me) section-->
-    <div class="container">
-        <div class="col-8">
-            <div class="p-3 mb-2 bg-primary text-white">
+
+    <div class="container border border-secondary col-12 col-sm-12 col-md-9 col-lg-6 mt-4 pb-5 bg-light text-white">
 
                 <!-- "About Me" -->
                 <div class="container">
-                    <div class="p-3 mb-2 bg-white text-dark">
-                        <p>About me</p>
-                    </div>
+                        <div class="col-3 pt-1 mt-1 bg-light text-info text-center font-weight-bold">
+                            <h3>About me</h3>
+                        </div>
                 </div>
 
                 <!-- image -->
                 <div class="container">
                     <div class="row no-gutters">
 
-                        <div class="col-sm-auto">
-                            <div class="p-3 mb-2 bg-light text-dark">
+                        <div class="col-sm-auto image-center">
+                            <div class="p-1 bg-light text-dark">
                                 <img src="placeholder" width="150" height="150">
                             </div>
                         </div>
 
                         <!-- self note: if time, return to text (should wrap around image)-->
-                        <div class="col-sm">
-                            <div class="p-3 mb-2 bg-light text-dark">
-                                <p>Blah blah bloop talking talking and more talking here not making any sense and being randomly
-                                strange...Bleh</p>
+                        <div class="col-12 col-sm-10 col-md-8 col-lg-9">
+                            <div class="p-1 bg-light text-dark">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu enim neque. Sed odio lorem, scelerisque non ligula quis, posuere aliquet lorem. In ac tincidunt diam. Donec placerat arcu sit amet interdum dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu enim neque.</p>
                             </div>
                         </div>
-
                     </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 p-1 mb-2 bg-light text-dark">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu enim neque. Sed odio lorem, scelerisque non ligula quis, posuere aliquet lorem. In ac tincidunt diam. Donec placerat arcu sit amet interdum dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu enim neque.</p>
+                            </div>
+
+
+                    
                 </div>
 
-
-
-
-
-
-            </div>
-        </div>
     </div>
 
 
 
 
     <!-- Background image -->
-    <img src="https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png">
+
+
 
 
     <!-- About Me -->
@@ -107,10 +116,10 @@
 
 
     <!-- Fix Footer (add border) -->
-    <footer class="page-footer p-3 mb-0 bg-secondary text-white fixed-bottom">
-        <div class="footer-copyright text-center">Copyright &copy;
-        </div>
-    </footer>
+        <footer class="page-footer p-3 mb-0 bg-secondary text-white fixed-bottom border-top border-info">
+                <div class="footer-copyright text-center">Copyright &copy;
+                </div>
+        </footer>
 
 
 

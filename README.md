@@ -11,7 +11,7 @@ I first decided to tackle the Navbar with the intention to make my way down each
 
 
 
-        [image](images/first-page-challenges.jpg)
+* ![image](images/first-page-challenges.jpg)
 
 In the image above, i've pointed out the sections of the page that gave me the most trouble.
     
@@ -38,13 +38,13 @@ I then worked on the Footer which was also meant to be consistent on every page 
 After most of the first page was complete, i moved onto the others, dedicating more focus on slight modivications to the center containers that differed from the 'About Me' page (index.html).
 
 
-        [image](images/third-page-challenges.jpg)
+* ![image](images/third-page-challenges.jpg)
 
     The Contact.html page proved to be a challenge, one i ultimately faced relying primarily on CSS styling within the page.
 
         The CSS was mostly used to alter the size of each text box to fit the container. However, as i quickly learned, Bootstrap conflicted/overwrote any shared CSS writen code. As such, i found myself altering every aspect of each text box using CSS only. Even the slightest bit of Bootstrap would completely nullify the CSS. The boxes are referenced in the image above with Orange arrows.
 
-        [image](images/second-page-challenges.jpg)
+* ![image](images/second-page-challenges.jpg)
 
     The portfolio page was actually less of a challenge as i had grown comfortable with manipulating images within containers within larger containers. Ironically, in the first portfolio progect (basic-portfolio), this page was the greatest challenge of the project.
         

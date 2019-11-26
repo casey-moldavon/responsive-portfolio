@@ -61,14 +61,14 @@ I continued to mess around with each page, making small alterations to the paddi
 
 ## Deployed Link
 
-* [See Live Site]()
+* [See Live Site](https://casey-moldavon.github.io/responsive-portfolio/index.html)
 
 
 ## Authors
 
 *Casey Moldavon
 
-- [Link to Portfolio Site]()
+- [Link to Portfolio Site](https://casey-moldavon.github.io/responsive-portfolio/index.html)
 - [Link to Github](https://github.com/casey-moldavon)
 - [Link to LinkedIn](https://www.linkedin.com/in/casey-moldavon-442a1761/)
 

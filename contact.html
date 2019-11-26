@@ -22,7 +22,7 @@
             color: #777777;
             width: 700px;
             position: relative;
-            margin-left: 5px;
+            margin-left: 10px;
             margin-top: 5px;
             margin-bottom: 10px;
         }
@@ -30,7 +30,7 @@
             color: #777777;
             width: 700px;
             position: relative;
-            margin-left: 5px;
+            margin-left: 10px;
             margin-top: 5px;
             margin-bottom: 10px;
         }
@@ -39,13 +39,16 @@
             width: 700px;
             padding-bottom: 200px;
             position: relative;
-            margin-left: 5px;
+            margin-left: 10px;
             margin-top: 5px;
             margin-bottom: 15px;
         }
 
         footer {
-            border-top: 8px solid #4aaaa5;
+            border-top: 8px solid #1ba3b9;
+        }
+        section {
+            color: #1ba3b9;
         }
     </style>
 
@@ -94,29 +97,39 @@
         </div>
     </header>
 
-
-    <div class="container border col-12 col-sm-12 col-md-9 col-lg-6 mt-5 ml-5 pb-3 bg-light text-secondary">
+<section>
+    <div class="container border col-12 col-sm-12 col-md-9 col-lg-6 mt-5 ml-5 pb-3 bg-light">
         <a class="border-secondary">
 
             <!-- "Contacts" -->
-            <div class="container">
-                <div class="col-3 pt-1 pr-5 mt-2 ml-0 mr-5 bg-light text-info text-center font-weight-bold">
-                    <h3>Contacts</h3>
-                </div>
+            <div class="container border-bottom mb-2">
+                <a class="border-secondary">
+                    <div class="col-1 pt-1 pr-5 pl- 0 mt-2 ml-0 mr-5 bg-light text-center font-weight-bold">
+                        <h3>Contacts</h3>
+                    </div>
+                </a>
             </div>
-            <form>Name<br>
-                <input class="name" placeholder="Name here"><br>
-    
-            <form>Email<br>
-                <input class="email" placeholder="Email here"><br>
-    
-            <form>Message<br>
-                <input class="message" placeholder="Write message here"><br>
-            <a class="ml-1">
-                <button type="button" class="btn btn-info pr-4 pl-4 pb-2 pt-2">Submit</button>
+            <a class="text-secondary ml-3">
+                <form>Name<br>
+                    <input class="name" placeholder="Name here"><br>
             </a>
+            <a class="text-secondary ml-3">
+                <form>Email<br>
+                    <input class="email" placeholder="Email here"><br>
+            </a>
+            <a class="text-secondary ml-3">
+                <form>Message<br>
+                    <input class="message" placeholder="Write message here"><br>
+            </a>
+            <div class="button">
+                <a class="ml-2">
+                    <button type="button" class="btn btn-info pr-4 pl-4 pb-2 pt-2">Submit</button>
+                </a>
+            </div>
+            
         </a>
     </div>
+</section>
 
 
 
